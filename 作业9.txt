@@ -1,0 +1,17 @@
+//作业9：
+//1.定义一个天气温度列表
+//2.打印一周的天气
+object ZuoYe1 {
+  def main(args: Array[String]) {
+    var a: Array[String] = Array[String]("38℃", "40℃", "39℃", "38℃", "41℃", "39℃", "42℃")
+    var x = 0
+    for (x <- 0 until 7) {
+      if (x == 2) {
+        println("周三的天气" + a(2))
+      }
+      else {
+        println(a(x))
+      }
+    }
+  }
+}
